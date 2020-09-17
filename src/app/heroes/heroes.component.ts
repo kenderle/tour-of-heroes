@@ -13,9 +13,9 @@ import { Component, OnInit } from '@angular/core';
 export class HeroesComponent implements OnInit {
 
 
+  heroes: Hero[];
   selectedHero: Hero;
 
-  heroes: Hero[];
 
   constructor(
     private heroService: HeroService,
