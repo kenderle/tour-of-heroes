@@ -11,6 +11,6 @@ export class MessageService {
   }
 
   clear() {
-    this.messages = [];
+    this.messages = ["Select a Hero to find out the Super Power"];
   }
 }
